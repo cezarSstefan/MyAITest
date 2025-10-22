@@ -1,0 +1,25 @@
+{
+	"id": "3bc04ebf-7aaa-f011-8e61-000d3ab674a1",
+	"createdAt": "2025-10-16T10:27:43.113Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"config": {
+		"modelConfig": {
+			"response_format": "text",
+			"temperature": 1,
+			"schema": {}
+		},
+		"vectorConfig": {
+			"k": 1,
+			"threshold": 0.8
+		},
+		"onlyMetadata": false,
+		"multiStepToolCalling": false,
+		"provider": {}
+	},
+	"name": "MyNewAgent",
+	"ver": "25.10.20.1444",
+	"version": null,
+	"description": null,
+	"package": "5a907a03-c3ad-f011-8e61-000d3a672cf0",
+	"model": "64d3a6ff-9aa3-f011-b3cd-000d3ab9d08b"
+}

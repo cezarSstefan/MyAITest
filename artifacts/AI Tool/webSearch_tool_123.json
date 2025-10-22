@@ -1,0 +1,33 @@
+{
+	"id": "7ff1bba3-53ac-f011-8e61-000d3ab674a1",
+	"createdAt": "2025-10-18T18:52:48.780Z",
+	"createdBy": "edip.sopa@neptune-software.com",
+	"config": {
+		"numResults": 3,
+		"context": false,
+		"maxCharactersContext": 800,
+		"summary": false,
+		"text": false,
+		"maxCharactersText": 800,
+		"includeDomains": [
+			"neptune-software.com"
+		]
+	},
+	"name": "webSearch_tool_123",
+	"ver": "25.10.21.1510",
+	"version": null,
+	"description": [
+		"==OBJECT STRING==",
+		"Performs a web search and returns relevant summaries.\r",
+		"\r",
+		"Parameters:\r",
+		"- query (String, required): search term or question.\r",
+		"- includeDomains (Array of String, optional): list of domains to restrict search to.\r",
+		"- excludeDomains (Array of String, optional): list of domains to exclude.\r",
+		"- numResults (Number, optional): number of results to return (default 3).\r",
+		"\r",
+		"Use this tool when the user requests to search the web or find information within or outside specific domains."
+	],
+	"package": "5a907a03-c3ad-f011-8e61-000d3a672cf0",
+	"type": "WEBSEARCH"
+}
